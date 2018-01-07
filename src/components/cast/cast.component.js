@@ -32,7 +32,7 @@ class CastComponent extends Component {
     cast = () => {
       return this.state.cast.slice(0, 8).map((person) => {
         return (
-          <Link className="cast-wrap" key={person.id} to={`/cast/${person.id}`}>
+          <Link className="cast-wrap" key={person.id} to={`/movie-place-React/cast/${person.id}`}>
             <div key={person.id}>
               <div className="card">
                 <img className="card-img-top" src={`https://image.tmdb.org/t/p/w1000/${person.profile_path}`} alt="img tag" ref={img => this.img = img} onError={

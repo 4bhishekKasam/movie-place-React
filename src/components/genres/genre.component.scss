@@ -14,7 +14,7 @@
 
   @each $genre in Action, Adventure, Animation, Comedy, Crime, Documentary, Drama, Family, Fantasy, History, Horror, Music, Mystery, Romance, Science, TV, Thriller, War, Western {
     &-#{$genre} {
-      background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)),  url('/images/#{$genre}.png');
+      background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 192, 203, 0.4)),  url('/movie-place-React/images/#{$genre}.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;

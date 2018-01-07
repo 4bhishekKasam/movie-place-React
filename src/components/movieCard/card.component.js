@@ -37,7 +37,7 @@ const CardComponent = (props) =>  {
        </div>
        <br/>
       <Link className="btn btn-primary btn-block"
-        to={`/movie/${props.movie.id}`}>Details</Link>
+        to={`/movie-place-React/movie/${props.movie.id}`}>Details</Link>
     </div>
   </div>
   )

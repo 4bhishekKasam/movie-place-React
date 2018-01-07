@@ -19,16 +19,16 @@ const Main = () => (
   // Our Main App ROUTER
   <main className="wrap-container">
     <Switch>
-      <Route exact path="/" component={HomeComponent}/>
-      <Route exact path="/movie/:id" component={DetailsComponent}/>
-      <Route exact path="/movies/popular" component={MoviesComponent}/>
-      <Route exact path="/movies/top" component={TopMoviesComponent}/>
-      <Route exact path="/movies/upcoming" component={UpcomingMoviesComponent}/>
-      <Route exact path="/movies/search" component={SearchComponent}/>
-      <Route exact path="/cast/:id" component={CastDetailsComponent}/>
-      <Route exact path="/genres" component={GenresComponent}/>
-      <Route exact path="/genre/:id" component={GenreComponent}/>
-      <Route component={NoMatch}/>
+      <Route exact path="/movie-place-React" component={HomeComponent}/>
+      <Route exact path="/movie-place-React/movie/:id" component={DetailsComponent}/>
+      <Route exact path="/movie-place-React/movies/popular" component={MoviesComponent}/>
+      <Route exact path="/movie-place-React/movies/top" component={TopMoviesComponent}/>
+      <Route exact path="/movie-place-React/movies/upcoming" component={UpcomingMoviesComponent}/>
+      <Route exact path="/movie-place-React/movies/search" component={SearchComponent}/>
+      <Route exact path="/movie-place-React/cast/:id" component={CastDetailsComponent}/>
+      <Route exact path="/movie-place-React/genres" component={GenresComponent}/>
+      <Route exact path="/movie-place-React/genre/:id" component={GenreComponent}/>
+      {/* <Route component={NoMatch}/> */}
     </Switch>
   </main>
 );

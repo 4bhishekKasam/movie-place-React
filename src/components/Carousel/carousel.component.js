@@ -77,7 +77,7 @@ class CarouselComponent extends Component {
           <div className="carousel__background" style={{backgroundImage: `url(https://image.tmdb.org/t/p/w1000${item.backdrop_path})`}}></div>
           <div className="carousel-caption d-none d-md-block">
           <Link
-            to={`/movie/${item.id}`}>
+            to={`/movie-place-React/movie/${item.id}`}>
             <h3>{item.title}</h3>
           </Link>
           <p>{item.overview}</p>

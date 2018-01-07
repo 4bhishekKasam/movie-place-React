@@ -93,9 +93,9 @@ class TopMoviesComponent extends Component {
       <div className="container movie_wrap">
         <h1 className="featured-header">Popular Movies</h1>
         <ButtonGroup>
-          <Button><Link to={'/movies/popular'}>Popular</Link></Button>{' '}
-          <Button active><Link to={'/movies/top'}>Top Rated</Link></Button>{' '}
-          <Button><Link to={'/movies/upcoming'}>Upcoming</Link></Button>
+          <Button><Link to={'/movie-place-React/movies/popular'}>Popular</Link></Button>{' '}
+          <Button active><Link to={'/movie-place-React/movies/top'}>Top Rated</Link></Button>{' '}
+          <Button><Link to={'/movie-place-React/movies/upcoming'}>Upcoming</Link></Button>
         </ButtonGroup>
 
         <div className="card-wrap">

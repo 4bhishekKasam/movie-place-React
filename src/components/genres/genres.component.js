@@ -35,7 +35,7 @@ class GenresComponent extends Component {
   renderGenres = () => {
     return this.state.genres.map((genre) => {
       return (
-        <Link className={`genre-badge genre-badge-${genre.name}`} key={genre.id} to={`/genre/${genre.id}`}>{genre.name}</Link>
+        <Link className={`genre-badge genre-badge-${genre.name}`} key={genre.id} to={`/movie-place-React/genre/${genre.id}`}>{genre.name}</Link>
       )
     });
   }

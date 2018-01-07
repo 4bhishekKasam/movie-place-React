@@ -36,7 +36,7 @@ class CrewComponent extends Component {
       return this.state.crew.map((person) => {
         if(person.job === 'Director') {
           return (
-            <Link key={person.id} to={`/cast/${person.id}`}>
+            <Link key={person.id} to={`/movie-place-React/cast/${person.id}`}>
               <div className="card card-director" key="person.id">
                 <img className="card-img-top" src={`https://image.tmdb.org/t/p/w1000${person.profile_path}`} alt={person.name} ref={img => this.img = img} onError={
                     () => this.img.src = 'http://riosparadalaw.com/en/wp-content/uploads/2014/02/placeholder-600x800.jpg'}
