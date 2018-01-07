@@ -2,7 +2,7 @@
   "name": "movie-place",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/drejcreative/movie-place-React",
+  "homepage": "https://drejcreative.github.io/movie-place-React/",
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "4.0.0-beta.2",
