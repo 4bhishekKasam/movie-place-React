@@ -22,7 +22,7 @@ const CardComponent = (props) =>  {
   // Our main app wrapper
   return(
     <div className="card">
-    <img className="card-img-top" src={`https://image.tmdb.org/t/p/w1000${props.movie.poster_path}`} alt={ props.movie.title } ref={img => this.img = img} onError={
+    <img className="card-img-top" src={`https://image.tmdb.org/t/p/w500${props.movie.poster_path}`} alt={ props.movie.title } ref={img => this.img = img} onError={
         () => this.img.src = 'http://riosparadalaw.com/en/wp-content/uploads/2014/02/placeholder-600x800.jpg'
       } />
     <div className="card-body">

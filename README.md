@@ -1,5 +1,5 @@
 # Movie Place
-[Visit App](https://drejcreative.github.io/movie-place/)
+[Visit App](https://drejcreative.github.io/movie-place-React/)
 ![Project Login](0.png)
 ![Project Dashboard](1.png)
 ![Adding new Client](2.png)
