@@ -102,7 +102,7 @@ class DetailsComponent extends Component {
     return (
       <div className="detail-wrapper">
 
-        <div style={{backgroundImage: `url(https://image.tmdb.org/t/p/w1000${movieFile.backdrop_path})`}}
+        <div style={{backgroundImage: `url(https://image.tmdb.org/t/p/w500${movieFile.backdrop_path})`}}
              className="poster">
           <div className="container">
             <div className="row">
@@ -114,7 +114,7 @@ class DetailsComponent extends Component {
                 <a className="txt-color" href={ movieFile.homepage } target="_blank">Visit movie page</a>
               </div>
             <div className="col-12 col-md-6 poster__image-wrap">
-                <img className="poster__image" src={`https://image.tmdb.org/t/p/w1000/${movieFile.poster_path}`} alt="{ movieFile.original_title }" />
+                <img className="poster__image" src={`https://image.tmdb.org/t/p/w500/${movieFile.poster_path}`} alt="{ movieFile.original_title }" />
             </div>
             </div>
           </div>

@@ -74,7 +74,7 @@ class CarouselComponent extends Component {
           className="carousel__image"
         >
           <div className="gradient-img"></div>
-          <div className="carousel__background" style={{backgroundImage: `url(https://image.tmdb.org/t/p/w1000${item.backdrop_path})`}}></div>
+          <div className="carousel__background" style={{backgroundImage: `url(https://image.tmdb.org/t/p/w500${item.backdrop_path})`}}></div>
           <div className="carousel-caption d-none d-md-block">
           <Link
             to={`/movie-place-React/movie/${item.id}`}>
